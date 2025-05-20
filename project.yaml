@@ -1,0 +1,70 @@
+basic:
+    name: /child-support-services/
+    environments:
+        production: 'https://www.ventura.org/child-support-services/'
+        staging: 'https://venturacounty.gov/child-support-services/'
+        development: ''
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - /message-from-the-director
+        - /services-provided
+        - /we-asked-our-team
+        - /open-a-case
+        - /how-we-enforce-the-order
+        - /making-payments
+        - /receiving-payments
+        - /court-hearings
+        - /license-suspensions
+        - /debt-reduction-program
+        - /complaint-resolution
+        - /faqs
+        - /general-information
+        - /employment-verification-webinar
+        - /income-withholding-order-faqs
+        - /national-medical-support-notice-nmsn-faqs
+        - /forms
+        - /employer-forum
+        - /title-companies
+        - /monthly-locations
+        - /brochures-and-flyers
+        - /outreach-services
+        - /community-resources
+        - /child-support-forms
+        - /fatherhood-initiative_
+        - /brotherhood-in-fatherhood
+        - /workshops
+        - /2025-ventura-county-fatherhood-summit
+        - /fatherhood-summit
+        - /harvesting-all-dads
+        - /empowering-fathers
+        - /announcements
+        - /going-to-court
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
