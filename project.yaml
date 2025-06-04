@@ -2,7 +2,7 @@ basic:
     name: /child-support-services/
     environments:
         production: 'https://www.ventura.org/child-support-services/'
-        staging: 'https://s48024.p1092.sites.pressdns.com/child-support-services/'
+        staging: 'https://venturacounty.gov/child-support-services/'
         development: ''
     basicAuth:
         production: { user: '', password: '' }
